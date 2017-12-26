@@ -9,3 +9,8 @@ This year I solved all the exercises in Kotlin.
 
 During the development, I used the IDE IntelliJ IDEA, which
 was perfect for Kotlin. Every day was created as a new project.
+
+Screenshot
+----------
+
+<div style="width:50%">![](assets/screenshot.png)</div>
