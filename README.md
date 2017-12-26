@@ -13,4 +13,4 @@ was perfect for Kotlin. Every day was created as a new project.
 Screenshot
 ----------
 
-<img src="assets/screenshot.png" alt="proof" style="width: 300px;"/>
+See [assets/screenshot.png](assets/screenshot.png) (spoiler alert!).
