@@ -15,7 +15,7 @@ class Computer(val id: Long) {
     private val instructions = mutableListOf<String>()
     private val registers = mutableMapOf<Char, Long>()
     private val queue : Queue<Long> = LinkedList()
-    private var otherQueue : Queue<Long> = LinkedList()    // will be changed
+    private lateinit var otherQueue : Queue<Long>    // will be set later
     private var sent = 0
     private var i = 0    // instruction index pointer
     private var waiting = false
