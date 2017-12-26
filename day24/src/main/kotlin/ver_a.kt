@@ -8,8 +8,8 @@ val RIGHT = 1
 
 data class Component(val id: Int, val line: String) {
 
-    var left : Int = 0    // will be changed
-    var right : Int = 0    // will be changed
+    var left : Int
+    var right : Int
 
     init {
         val parts = line.split("/")
@@ -115,7 +115,6 @@ object BridgeMaker {
     }
 
 }
-
 
 fun main(args: Array<String>) {
 
